@@ -1,0 +1,194 @@
+/*
+CUSTOM AG-GRID CSS HERE
+MORE DOCUMENTATION HERE : https://www.ag-grid.com/javascript-data-grid/themes/
+*/
+/* .ag-theme-alpine {
+    --ag-header-height: 30px;
+    --ag-header-foreground-color: white;
+    --ag-header-background-color: black;
+    --ag-header-cell-hover-background-color: rgb(80, 40, 140);
+    --ag-header-cell-moving-background-color: rgb(80, 40, 140);
+} */
+.ag-theme-alpine .ag-header {
+    font-family: cursive;
+}
+.ag-theme-alpine .ag-header-group-cell {
+    font-weight: normal;
+    font-size: 22px;
+}
+.ag-theme-alpine .ag-header-cell {
+    font-size: 18px;
+}
+
+
+.ag-theme-custome .ag-theme-alpine{
+    margin: 30px 0;
+}
+
+
+.ag-theme-custome {
+    --ag-header-height: 30px;
+    --ag-header-foreground-color: #000;
+    --ag-header-background-color: #b0d2fb;
+    --ag-border-color:#fff;
+    width: 100%;
+    margin-left: 250px;
+}
+.ag-theme-custome .ag-column-drop-horizontal {
+    background: #052f61;
+}
+.ag-theme-custome .ag-header-cell-text{
+    font-weight: normal;
+    font-family:sans-serif;
+    font-size: 14px;
+}
+.ag-theme-custome .ag-theme-alpine input {
+    color: #000 !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+}
+.ag-theme-custome .ag-column-drop-empty-message{
+    color: #fff;
+    opacity: 1;
+}
+.ag-theme-custome .ag-column-drop-horizontal-icon {
+    color: #fff;
+}
+.ag-theme-custome .ag-header-group-text {
+    font-family:sans-serif;font-size: 18px;
+}
+.ag-theme-custome .btn-light {
+    background-color: transparent;
+    border-color: transparent;
+    color: #052f61;
+}
+.ag-theme-custome .ag-floating-filter-button-button{
+    color: #052f61;
+}
+.ag-theme-custome .ag-row {
+    border-color: #b0d2fb;
+}
+.ag-theme-custome .ag-cell-value, 
+.ag-theme-custome .ag-group-value {color: #052f61;}
+.ag-theme-custome .ag-icon.ag-icon-grip {
+    color: #052f61 !important;
+}
+.ag-theme-custome .ag-header-cell-resize:after {background-color: #052f61;}
+.ag-theme-custome .ag-status-name-value input {
+    color: #fff !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    background: #052f61;
+    border: 0;
+    border-radius: 6px;
+    padding: 6px 18px;
+    margin-left: 10px;
+}
+.ag-theme-custome .ag-status-bar-right {
+    align-items: center;
+}
+.ag-theme-custome .ag-body-horizontal-scroll-viewport::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+    background-color: #b0d2fb;
+}
+
+.ag-theme-custome .ag-body-horizontal-scroll-viewport::-webkit-scrollbar
+{
+	width: 100%;
+    background-color: #F5F5F5;
+    height: 5px;
+}
+
+.ag-theme-custome .ag-body-horizontal-scroll-viewport::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+    background-color: #052f61;
+}
+
+.ag-theme-custome .ag-body-viewport::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+    background-color: #fff;
+}
+
+.ag-theme-custome .ag-body-viewport::-webkit-scrollbar
+{
+	width: 5px;
+    background-color: #F5F5F5;
+}
+
+.ag-theme-custome .ag-body-viewport::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+    background-color: #052f61;
+}
+.ag-theme-custome .ag-tool-panel-wrapper {background-color: #b0d2fb;padding: 15px;}
+.ag-theme-custome .ag-tool-panel-wrapper .ag-react-container span h2{
+    font-size: 22px;
+    text-align: left;
+}
+.ag-theme-custome .ag-tool-panel-wrapper .ag-react-container span dl{
+    padding: 0 !important;
+}
+.ag-theme-custome .ag-tool-panel-wrapper .ag-react-container span dl dt {
+    width: 100%;
+    font-size: 14px;
+    padding: 5px 0 !important;
+    text-align: left;
+    font-weight: 500;
+}
+.ag-theme-custome .ag-side-buttons {
+    background: #000;
+    color: #fff;
+}
+.ag-theme-custome button.ag-side-button-button {
+    background: #052f61;
+    border: 2px solid #000 !important;
+    margin: 5px 0;
+}
+.ag-theme-custome button.ag-side-button-button:hover{
+    color: #fff !important;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+header,footer {
+    background: #ddd;
+    color: #052f61;
+    text-align: center;
+    padding: 15px;
+}
+.sidebar {
+    display: flex;
+    width: 100%;
+}
+aside {
+    background: #052f61;
+    position: fixed;
+    width: 250px;
+    flex: 0 0 250px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+aside .logo {
+    background: #b0d2fb;
+    color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 28px;
+    text-align: center;
+    font-size: 20px;
+}
